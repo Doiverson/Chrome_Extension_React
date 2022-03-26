@@ -1,38 +1,35 @@
-.App {
-  text-align: center;
+@import '~antd/dist/antd.css';
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+.olive {
+    height: 100%;
+    width: 200px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.member-name {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 23px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ant-layout-header {
+    background: linear-gradient(180deg,#2c7f7488,#2c7f74DD),url("https://uploads-ssl.webflow.com/5e842374296ec15989ab0301/6180960341444a2f14a577e4_5e843036f368a48d090c4edc_back.jpeg") !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.ant-btn {
+    font-family: 'Shadows Into Light', cursive
 }
 
-.App-link {
-  color: #61dafb;
+.ant-btn:hover, .ant-btn:focus {
+    color: #2c7f74DD;
+    border-color: #2c7f74DD;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ant-checkbox-checked .ant-checkbox-inner {
+    background-color: #2c7f74DD;
+    border-color: #2c7f74DD;
+}
+
+.ant-checkbox-wrapper:hover .ant-checkbox-inner {
+    border-color: #2c7f74DD;
 }
