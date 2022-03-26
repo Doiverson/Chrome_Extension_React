@@ -1,6 +1,6 @@
 /*global chrome*/
 import React, { useEffect, useState } from "react";
-import data from "./data/members.json";
+import data from "../data/members.json";
 
 import logo from "./favicon.png";
 import logoWhite from "./white_logo.png"
